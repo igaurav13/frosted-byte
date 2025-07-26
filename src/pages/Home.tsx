@@ -59,7 +59,6 @@ function Home() {
                 <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-lg px-4 sm:px-6 py-2 sm:py-3 text-white font-medium group-hover:bg-white/30 transition-all duration-300 inline-block text-sm sm:text-base">
                     Enter Showcase 
                     <span className="text-lg group-hover:translate-x-1 transition-transform duration-300">→</span>
-
                 </div>
                 </div>
             </div>
