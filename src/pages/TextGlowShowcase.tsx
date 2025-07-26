@@ -60,9 +60,9 @@ function TextGlowShowcase() {
             </div>
           </div>
 
-          {/* Basic Glow Effects */}
+          {/* Basic Glow Effects - Static */}
           <section className="mb-8 sm:mb-12">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Basic Glow Effects</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Basic Glow Effects - Static</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 px-4">
               <div className="text-center p-4 bg-white/5 rounded-xl border border-white/10">
                 <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-2" style={{textShadow: '0 0 10px rgba(59, 130, 246, 0.8)'}}>
@@ -91,9 +91,40 @@ function TextGlowShowcase() {
             </div>
           </section>
 
-          {/* Animated Glow Effects */}
+          {/* Basic Glow Effects - Hover */}
           <section className="mb-8 sm:mb-12">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Animated Glow Effects</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Basic Glow Effects - Hover</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 px-4">
+              <div className="text-center p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-2 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_10px_rgba(59,130,246,0.8)]">
+                  Blue Glow
+                </h3>
+                <p className="text-white/70 text-sm">Soft blue radiance</p>
+              </div>
+              <div className="text-center p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-lg sm:text-xl font-bold text-purple-400 mb-2 group-hover:animate-text-pulse transition-all duration-300 group-hover:[text-shadow:0_0_10px_rgba(147,51,234,0.8)]">
+                  Purple Glow
+                </h3>
+                <p className="text-white/70 text-sm">Royal purple shine</p>
+              </div>
+              <div className="text-center p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-lg sm:text-xl font-bold text-pink-400 mb-2 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_10px_rgba(236,72,153,0.8)]">
+                  Pink Glow
+                </h3>
+                <p className="text-white/70 text-sm">Vibrant pink aura</p>
+              </div>
+              <div className="text-center p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-lg sm:text-xl font-bold text-cyan-400 mb-2 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_10px_rgba(34,211,238,0.8)]">
+                  Cyan Glow
+                </h3>
+                <p className="text-white/70 text-sm">Electric cyan light</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Animated Glow Effects - Static */}
+          <section className="mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Animated Glow Effects - Static</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-4">
               <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10">
                 <h3 className="text-xl sm:text-2xl font-bold text-blue-400 mb-3 animate-text-glow">
@@ -116,9 +147,34 @@ function TextGlowShowcase() {
             </div>
           </section>
 
-          {/* Gradient Text Effects */}
+          {/* Animated Glow Effects - Hover */}
           <section className="mb-8 sm:mb-12">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Gradient Glow Effects</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Animated Glow Effects - Hover</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-4">
+              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-400 mb-3 group-hover:animate-text-glow transition-all duration-300">
+                  Pulsing Glow
+                </h3>
+                <p className="text-white/70 text-sm">Rhythmic light pulsation</p>
+              </div>
+              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-xl sm:text-2xl font-bold text-purple-400 mb-3 group-hover:animate-text-pulse transition-all duration-300">
+                  Breathing Effect
+                </h3>
+                <p className="text-white/70 text-sm">Gentle breathing motion</p>
+              </div>
+              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-xl sm:text-2xl font-bold text-cyan-400 mb-3 group-hover:animate-neon-flicker transition-all duration-300">
+                  Neon Flicker
+                </h3>
+                <p className="text-white/70 text-sm">Classic neon sign effect</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Gradient Text Effects - Static */}
+          <section className="mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Gradient Glow Effects - Static</h2>
             <div className="space-y-6 px-4">
               <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10">
                 <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
@@ -147,9 +203,40 @@ function TextGlowShowcase() {
             </div>
           </section>
 
-          {/* Neon Sign Effects */}
+          {/* Gradient Text Effects - Hover */}
           <section className="mb-8 sm:mb-12">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Neon Sign Effects</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Gradient Glow Effects - Hover</h2>
+            <div className="space-y-6 px-4">
+              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                  <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent group-hover:animate-text-shimmer bg-[length:200%_100%] transition-all duration-300 group-hover:[text-shadow:0_0_30px_rgba(139,92,246,0.5)]">
+                    Shimmer Gradient
+                  </span>
+                </h3>
+                <p className="text-white/70">Animated gradient with shimmer effect</p>
+              </div>
+              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                  <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_20px_rgba(59,130,246,0.6),0_0_40px_rgba(139,92,246,0.4)]">
+                    Ocean Depths
+                  </span>
+                </h3>
+                <p className="text-white/70">Deep ocean color transition</p>
+              </div>
+              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                  <span className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 bg-clip-text text-transparent group-hover:animate-text-pulse transition-all duration-300 group-hover:[text-shadow:0_0_20px_rgba(236,72,153,0.6)]">
+                    Fire Glow
+                  </span>
+                </h3>
+                <p className="text-white/70">Warm fire-like radiance</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Neon Sign Effects - Static */}
+          <section className="mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Neon Sign Effects - Static</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 px-4">
               <div className="text-center p-8 bg-black/50 rounded-xl border border-pink-500/30">
                 <h3 className="text-2xl sm:text-3xl font-bold text-pink-400 mb-4 animate-neon-flicker font-mono" style={{textShadow: '0 0 5px #ec4899, 0 0 10px #ec4899, 0 0 15px #ec4899, 0 0 20px #ec4899'}}>
@@ -178,9 +265,40 @@ function TextGlowShowcase() {
             </div>
           </section>
 
-          {/* Multi-Color Effects */}
+          {/* Neon Sign Effects - Hover */}
           <section className="mb-8 sm:mb-12">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Multi-Color Glow Gallery</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Neon Sign Effects - Hover</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 px-4">
+              <div className="text-center p-8 bg-black/50 rounded-xl border border-pink-500/30 hover:border-pink-500/50 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-2xl sm:text-3xl font-bold text-pink-400 mb-4 group-hover:animate-neon-flicker font-mono transition-all duration-300 group-hover:[text-shadow:0_0_5px_#ec4899,0_0_10px_#ec4899,0_0_15px_#ec4899,0_0_20px_#ec4899]">
+                  NEON LIGHTS
+                </h3>
+                <p className="text-pink-200/70">Classic neon tube lighting</p>
+              </div>
+              <div className="text-center p-8 bg-black/50 rounded-xl border border-cyan-500/30 hover:border-cyan-500/50 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-4 font-mono group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_5px_#22d3ee,0_0_10px_#22d3ee,0_0_15px_#22d3ee,0_0_20px_#22d3ee,0_0_35px_#22d3ee]">
+                  ELECTRIC
+                </h3>
+                <p className="text-cyan-200/70">High-voltage electric glow</p>
+              </div>
+              <div className="text-center p-8 bg-black/50 rounded-xl border border-green-500/30 hover:border-green-500/50 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-2xl sm:text-3xl font-bold text-green-400 mb-4 group-hover:animate-text-pulse font-mono transition-all duration-300 group-hover:[text-shadow:0_0_5px_#22c55e,0_0_10px_#22c55e,0_0_15px_#22c55e,0_0_20px_#22c55e]">
+                  MATRIX
+                </h3>
+                <p className="text-green-200/70">Digital matrix aesthetic</p>
+              </div>
+              <div className="text-center p-8 bg-black/50 rounded-xl border border-yellow-500/30 hover:border-yellow-500/50 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-2xl sm:text-3xl font-bold text-yellow-400 mb-4 font-mono group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_5px_#eab308,0_0_10px_#eab308,0_0_15px_#eab308,0_0_20px_#eab308,0_0_35px_#eab308]">
+                  GOLDEN
+                </h3>
+                <p className="text-yellow-200/70">Luxurious golden radiance</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Multi-Color Effects - Static */}
+          <section className="mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Multi-Color Glow Gallery - Static</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 px-4">
               <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10">
                 <span className="text-red-400 font-bold text-lg block mb-1" style={{textShadow: '0 0 8px rgba(239, 68, 68, 0.8)'}}>Red</span>
@@ -233,9 +351,64 @@ function TextGlowShowcase() {
             </div>
           </section>
 
-          {/* Advanced Text Effects */}
+          {/* Multi-Color Effects - Hover */}
           <section className="mb-8 sm:mb-12">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Advanced Typography Effects</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Multi-Color Glow Gallery - Hover</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 px-4">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-red-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(239,68,68,0.8)]">Red</span>
+                <span className="text-white/60 text-xs">Fiery</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-orange-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(251,146,60,0.8)]">Orange</span>
+                <span className="text-white/60 text-xs">Warm</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-yellow-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(250,204,21,0.8)]">Yellow</span>
+                <span className="text-white/60 text-xs">Bright</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-green-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(34,197,94,0.8)]">Green</span>
+                <span className="text-white/60 text-xs">Nature</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-blue-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(59,130,246,0.8)]">Blue</span>
+                <span className="text-white/60 text-xs">Cool</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-indigo-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(99,102,241,0.8)]">Indigo</span>
+                <span className="text-white/60 text-xs">Deep</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-purple-400 font-bold text-lg block mb-1 group-hover:animate-text-pulse transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(147,51,234,0.8)]">Purple</span>
+                <span className="text-white/60 text-xs">Royal</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-pink-400 font-bold text-lg block mb-1 group-hover:animate-neon-flicker transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(236,72,153,0.8)]">Pink</span>
+                <span className="text-white/60 text-xs">Vibrant</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-teal-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(20,184,166,0.8)]">Teal</span>
+                <span className="text-white/60 text-xs">Fresh</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-cyan-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(34,211,238,0.8)]">Cyan</span>
+                <span className="text-white/60 text-xs">Electric</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-emerald-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(52,211,153,0.8)]">Emerald</span>
+                <span className="text-white/60 text-xs">Gem</span>
+              </div>
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+                <span className="text-white font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(255,255,255,0.8)]">White</span>
+                <span className="text-white/60 text-xs">Pure</span>
+              </div>
+            </div>
+          </section>
+
+          {/* Advanced Text Effects - Static */}
+          <section className="mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Advanced Typography Effects - Static</h2>
             <div className="space-y-8 px-4">
               <div className="text-center p-8 bg-gradient-to-r from-purple-900/20 to-blue-900/20 rounded-xl border border-white/10">
                 <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">
@@ -248,6 +421,29 @@ function TextGlowShowcase() {
               <div className="text-center p-8 bg-gradient-to-r from-green-900/20 to-cyan-900/20 rounded-xl border border-white/10">
                 <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 font-mono">
                   <span className="text-green-400 animate-text-pulse" style={{textShadow: '0 0 10px #22c55e, 0 0 20px #22c55e, 0 0 30px #22c55e, 0 0 40px #22c55e'}}>
+                    &lt;CODE/&gt;
+                  </span>
+                </h3>
+                <p className="text-white/70">Digital coding aesthetic</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Advanced Text Effects - Hover */}
+          <section className="mb-8 sm:mb-12">
+            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Advanced Typography Effects - Hover</h2>
+            <div className="space-y-8 px-4">
+              <div className="text-center p-8 bg-gradient-to-r from-purple-900/20 to-blue-900/20 rounded-xl border border-white/10 hover:bg-gradient-to-r hover:from-purple-900/30 hover:to-blue-900/30 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">
+                  <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent group-hover:animate-text-shimmer bg-[length:200%_100%] transition-all duration-300 group-hover:[text-shadow:0_0_20px_rgba(147,51,234,0.6)]">
+                    COSMIC
+                  </span>
+                </h3>
+                <p className="text-white/70">Interstellar text with cosmic vibes</p>
+              </div>
+              <div className="text-center p-8 bg-gradient-to-r from-green-900/20 to-cyan-900/20 rounded-xl border border-white/10 hover:bg-gradient-to-r hover:from-green-900/30 hover:to-cyan-900/30 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 font-mono">
+                  <span className="text-green-400 group-hover:animate-text-pulse transition-all duration-300 group-hover:[text-shadow:0_0_15px_rgba(34,197,94,0.8)]">
                     &lt;CODE/&gt;
                   </span>
                 </h3>
