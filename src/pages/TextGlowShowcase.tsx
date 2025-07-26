@@ -151,19 +151,19 @@ function TextGlowShowcase() {
           <section className="mb-8 sm:mb-12">
             <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Animated Glow Effects - Hover</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-4">
-              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-xl sm:text-2xl font-bold text-blue-400 mb-3 group-hover:animate-text-glow transition-all duration-300">
                   Pulsing Glow
                 </h3>
                 <p className="text-white/70 text-sm">Rhythmic light pulsation</p>
               </div>
-              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-xl sm:text-2xl font-bold text-purple-400 mb-3 group-hover:animate-text-pulse transition-all duration-300">
                   Breathing Effect
                 </h3>
                 <p className="text-white/70 text-sm">Gentle breathing motion</p>
               </div>
-              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-6 bg-white/5 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-xl sm:text-2xl font-bold text-cyan-400 mb-3 group-hover:animate-neon-flicker transition-all duration-300">
                   Neon Flicker
                 </h3>
@@ -207,7 +207,7 @@ function TextGlowShowcase() {
           <section className="mb-8 sm:mb-12">
             <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Gradient Glow Effects - Hover</h2>
             <div className="space-y-6 px-4">
-              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
                   <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent group-hover:animate-text-shimmer bg-[length:200%_100%] transition-all duration-300 group-hover:[text-shadow:0_0_30px_rgba(139,92,246,0.5)]">
                     Shimmer Gradient
@@ -215,7 +215,7 @@ function TextGlowShowcase() {
                 </h3>
                 <p className="text-white/70">Animated gradient with shimmer effect</p>
               </div>
-              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
                   <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_20px_rgba(59,130,246,0.6),0_0_40px_rgba(139,92,246,0.4)]">
                     Ocean Depths
@@ -223,7 +223,7 @@ function TextGlowShowcase() {
                 </h3>
                 <p className="text-white/70">Deep ocean color transition</p>
               </div>
-              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-8 bg-white/5 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
                   <span className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 bg-clip-text text-transparent group-hover:animate-text-pulse transition-all duration-300 group-hover:[text-shadow:0_0_20px_rgba(236,72,153,0.6)]">
                     Fire Glow
@@ -355,23 +355,23 @@ function TextGlowShowcase() {
           <section className="mb-8 sm:mb-12">
             <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Multi-Color Glow Gallery - Hover</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 px-4">
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10  transition-all duration-300 cursor-pointer group">
                 <span className="text-red-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(239,68,68,0.8)]">Red</span>
                 <span className="text-white/60 text-xs">Fiery</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-orange-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(251,146,60,0.8)]">Orange</span>
                 <span className="text-white/60 text-xs">Warm</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-yellow-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(250,204,21,0.8)]">Yellow</span>
                 <span className="text-white/60 text-xs">Bright</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-green-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(34,197,94,0.8)]">Green</span>
                 <span className="text-white/60 text-xs">Nature</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-blue-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(59,130,246,0.8)]">Blue</span>
                 <span className="text-white/60 text-xs">Cool</span>
               </div>
@@ -379,27 +379,27 @@ function TextGlowShowcase() {
                 <span className="text-indigo-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(99,102,241,0.8)]">Indigo</span>
                 <span className="text-white/60 text-xs">Deep</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-purple-400 font-bold text-lg block mb-1 group-hover:animate-text-pulse transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(147,51,234,0.8)]">Purple</span>
                 <span className="text-white/60 text-xs">Royal</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-pink-400 font-bold text-lg block mb-1 group-hover:animate-neon-flicker transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(236,72,153,0.8)]">Pink</span>
                 <span className="text-white/60 text-xs">Vibrant</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-teal-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(20,184,166,0.8)]">Teal</span>
                 <span className="text-white/60 text-xs">Fresh</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-cyan-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(34,211,238,0.8)]">Cyan</span>
                 <span className="text-white/60 text-xs">Electric</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-emerald-400 font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(52,211,153,0.8)]">Emerald</span>
                 <span className="text-white/60 text-xs">Gem</span>
               </div>
-              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-3 bg-white/5 rounded-lg border border-white/10 transition-all duration-300 cursor-pointer group">
                 <span className="text-white font-bold text-lg block mb-1 group-hover:animate-text-glow transition-all duration-300 group-hover:[text-shadow:0_0_8px_rgba(255,255,255,0.8)]">White</span>
                 <span className="text-white/60 text-xs">Pure</span>
               </div>
@@ -433,7 +433,7 @@ function TextGlowShowcase() {
           <section className="mb-8 sm:mb-12">
             <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-center">Advanced Typography Effects - Hover</h2>
             <div className="space-y-8 px-4">
-              <div className="text-center p-8 bg-gradient-to-r from-purple-900/20 to-blue-900/20 rounded-xl border border-white/10 hover:bg-gradient-to-r hover:from-purple-900/30 hover:to-blue-900/30 transition-all duration-300 cursor-pointer group">
+              <div className="text-center p-8 bg-gradient-to-r from-purple-900/20 to-blue-900/20 rounded-xl border border-white/10 transition-all duration-300 cursor-pointer group">
                 <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">
                   <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent group-hover:animate-text-shimmer bg-[length:200%_100%] transition-all duration-300 group-hover:[text-shadow:0_0_20px_rgba(147,51,234,0.6)]">
                     COSMIC
